@@ -21,11 +21,11 @@ h1{
    text-align: center;
    text-decoration: none;
    display: inline-block;
-   font-size: 10px;
+   font-size: 20px;
 }
 h2{
 
-    font-size: 1cm;
+    font-size: 1.5cm;
     align-items: center;
     justify-content: center;
    
@@ -40,4 +40,13 @@ button{
     text-decoration: none;
     display: inline-block;
     font-size: 25px;
+}
+@media only screen  and (max-width: 600px){
+    h2{
+        font-size: smaller;
+    }
+    h1{
+        padding: 10px 12px ;
+        font-size: smaller;
+    }
 }
